@@ -61,7 +61,8 @@ while True:
             print('SALDO INEXISTENTE')
         else:
             print(F'SALDO: R${saldo:.2f}')
-
+    
+    # SAIR
     elif opcao == 'q':
         break
 
