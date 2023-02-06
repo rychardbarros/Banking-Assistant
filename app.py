@@ -16,7 +16,7 @@ limite = 900
 while True:
     opcao = input(f'{menu}\n Digite sua opção: ')
 
-    # OPÇÃO DE DEPOSITO
+    # OPÇÃO DE DEPOSITO.
     if opcao == 'd':
         try:
             valor_depositado = int(input('Digite o valor do Deposito: '))
