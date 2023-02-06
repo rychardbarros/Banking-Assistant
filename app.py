@@ -33,7 +33,7 @@ while True:
         except ValueError as e:
             print('DIGITE ALGO VALIDO')
 
-    # OPÇÃO DE SAQUE
+    # OPÇÃO DE SAQUE.
     elif opcao == 's':
         try:
             valor_saque = int(input('Digite o valor do saque: '))
@@ -46,7 +46,7 @@ while True:
         except ValueError as e:
             print('DIGITE ALGO VALIDO')
 
-    # EXTRATO
+    # EXTRATO.
     elif opcao == 'e':
         if not extrato:
             print('EXTRATO INEXISTENTE')
@@ -55,14 +55,14 @@ while True:
                 + '\n'
                 + f'{extrato}')
             
-    # SALDO
+    # SALDO.
     elif opcao == 'sd':
         if not saldo:
             print('SALDO INEXISTENTE')
         else:
             print(F'SALDO: R${saldo:.2f}')
     
-    # SAIR
+    # SAIR.
     elif opcao == 'q':
         break
 
